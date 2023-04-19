@@ -1,0 +1,62 @@
+
+:root {
+  --background: #14120e; 
+  --accent: #2b2c2c;
+/* #2b2c2c; */
+}
+
+body {
+  color: white;
+  background-color: var(--background);
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage {
+  background-image:  url("https://thumbs.dreamstime.com/z/fashion-man-handsome-serious-beauty-male-model-portrait-wear-leather-jacket-young-guy-over-black-background-fashion-man-handsome-191101373.jpg");
+    filter: sepia(85%) saturate(100%) brightness(80%) /* hue-rotate(150deg) */;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  top: 0%;
+  left: 40%;
+}
+
+.headerItems{
+  cursor: pointer;
+  margin: 10px 20px 0 20px;
+  
+  padding: 5px;
+  border-radius: 6px;
+  background-color: var(--accent);
+}
+
+.homeText {
+  font-size: 10vw;
+  margin: 0;
+}
+
+.homeText2 {
+  font-size: 5vw;
+}
+
+.aboutMe {
+
+}
+
