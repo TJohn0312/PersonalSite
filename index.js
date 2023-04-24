@@ -14,3 +14,14 @@
       event.currentTarget.classList.add("active-link")
       document.getElementById(tabName).classList.add("active-tab")
     }
+
+// -------- Responsive ---------
+
+  var sideMenu = document.getElementById("sideMenu");
+
+  function openMenu() {
+    sideMenu.style.right = "0";
+}
+  function closeMenu() {
+    sideMenu.style.right = "-200px";
+}
