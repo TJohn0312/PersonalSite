@@ -1,247 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Tyler Johnson</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link href="styles.css" rel="stylesheet" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Poppins"
-			rel="stylesheet"
-		/>
-		<script
-			src="https://kit.fontawesome.com/00d1cf0826.js"
-			crossorigin="anonymous"
-		></script>
-	</head>
-	<body>
-		<!-- Header -->
-		<div class="header">
-			<div class="container">
-				<nav>
-					<img src="" class="logo" />
-					<ul id="sideMenu">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<i class="fas fa-xmark" onclick="closeMenu()"></i>
-					</ul>
-					<i class="fas fa-bars" onclick="openMenu()"></i>
-				</nav>
-				<div class="header-text">
-					<p>Web Developer</p>
-					<h1>
-						Hi, I'm <span>Tyler</span><br />
-						Lee <span>Johnson</span>
-					</h1>
-				</div>
-			</div>
-		</div>
+  <head>
+    <title>Tyler Johnson</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/00d1cf0826.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="container">
+      <nav>
+          <img src="" class="logo" />
+          <ul id="sideMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Tyler</span><br />
+            Lee <span>Johnson</span>
+          </h1>
+        </div>
+      </div>
+    </div>
 
-		<!-- About -->
-		<div id="about">
-			<div class="container">
-				<div class="row">
-					<div class="about-col-1">
-						<img src="Images/Sitting.jpg" />
-					</div>
-					<div class="about-col-2">
-						<h1 class="sub-title">My Programming Skills</h1>
-						<p>
+    <!-- Skills -->
+    <div id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="skills-col-1">
+            <img src="Images/Sitting.jpg" />
+          </div>
+          <div class="skills-col-2">
+            <h1 class="sub-title">My Programming Skills</h1>
+            <p>
               I'm Tyler Johnson from Raleigh, NC. Learning to be a Web Developer. <br>
-							I intentionally was learning with job training
-							in mind. If I were to train someone I wouldn't want them to know
-							everything, but to fundamentally understand the basics, so its
-							easy to show them your way of doing things. So that's what I was
-							primarily focusing on during my journey, know just enough to be the perfect
-							foundation to quickly and easily learn everything needed.
+                I intentionally was learning with job training
+                in mind. If I were to train someone I wouldn't want them to know
+                everything, but to fundamentally understand the basics, so its
+                easy to show them your way of doing things. So that's what I was
+                primarily focusing on during my journey, know just enough to be the perfect
+                foundation to quickly and easily learn everything needed.
+            </p>
 
-							<!--   I'm Tyler Johnson from Raleigh, NC. Im learning to be a web -->
-							<!--   developer. I had a goal while learning and that was to be the -->
-							<!--   best landscape to be trained. To have the tools and knowledge -->
-							<!--   to know what I'm doing and quickly and flexibly be trained however -->
-							<!--   is required. Without gaining any habits good or bad, until I'm -->
-							<!--   ready to be trained exactly how an employer wants -->
-							<!-- </p> -->
-						</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('languages')">
+                Languages
+              </p>
+              <p class="tab-links" onclick="openTab('framework')">Framework</p>
+              <p class="tab-links" onclick="openTab('other')">
+                Other skills
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="languages">
+              <ul>
+                <li>
+                  <span>Strongest Languages </span><br />HTML <br />CSS <br />JavaScript <br />
+                </li>
+                <li>
+                  <span>Slight Profency</span><br />Python: The first language I
+                  learned a year ago<br />c#: I dabbled in game development for
+                  a bit <br />Lua: I proudly have a complex NeoVim IDM coded in
+                  lua
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="framework">
+              <ul>
+                <li>
+                  <span>Skills</span><br />Mongo/Mongoose: a scalable database <br />Express: for routing applications <br />React: Component baced app builder <br />Node: A backend js envoronment
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="other">
+              <ul>
+                <li>
+                  <span>Strong</span><br />
+                  Git: Version control <br />
+                  Unix: Command line (Ubuntu)
+                </li>
+                <li>
+                  <span>Slight Profency</span><br />
+                  REST: Api creation method <br />
+                  Authentication: Cookies and tokens <br />
+                  md5: Hash encrypting
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-						<div class="tab-titles">
-							<p class="tab-links active-link" onclick="openTab('skills')">
-								Languages
-							</p>
-							<p class="tab-links" onclick="openTab('experience')">Framework</p>
-							<p class="tab-links" onclick="openTab('education')">
-								Other skills
-							</p>
-						</div>
-						<div class="tab-contents active-tab" id="skills">
-							<ul>
-								<li>
-									<span>Strongest Languages </span><br />HTML <br />CSS <br />JavaScript <br />
-								</li>
-								<li>
-									<span>Slight Profency</span><br />Python: The first language I
-									learned a year ago<br />c#: I dabbled in game development for
-									a bit <br />Lua: I proudly have a complex NeoVim IDM coded in
-									lua
-								</li>
-							</ul>
-						</div>
-						<div class="tab-contents" id="experience">
-							<ul>
-								<li>
-									<span>Skills</span><br />Mongo/Mongoose: a scalable database <br />Express: for routing applications <br />React: Component baced app builder <br />Node: A backend js envoronment
-								</li>
-							</ul>
-						</div>
-						<div class="tab-contents" id="education">
-							<ul>
-								<li>
-									<span>Strong</span><br />
-									Git: Version control <br />
-									Unix: Command line (Ubuntu)
-								</li>
-								<li>
-									<span>Slight Profency</span><br />
-									REST: Api creation method <br />
-									Authentication: Cookies and tokens <br />
-									md5: Hash encrypting
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <!-- --------About Me -->
 
-		<!-- --------services--------- -->
-		<div id="services">
-			<div class="container">
-				<h1 class="sub-title">My Services</h1>
-				<div class="services-list">
-					<div>
-						<i class="fa-solid fa-code"></i>
-						<h2>Web Design</h2>
-						<p>
-							Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-							sint cillum sint consectetur cupidatat.
-						</p>
-						<a href="#">Learn more</a>
-					</div>
-					<div>
-						<i class="fa-solid fa-crop"></i>
-						<h2>UI/UX Design</h2>
-						<p>
-							Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-							sint cillum sint consectetur cupidatat.
-						</p>
-						<a href="#">Learn more</a>
-					</div>
-					<div>
-						<i class="fa-brands fa-app-store-ios"></i>
-						<h2>App Design</h2>
-						<p>
-							Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-							sint cillum sint consectetur cupidatat.
-						</p>
-						<a href="#">Learn more</a>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div id="about">
+      <div class="container">
+        <h1 class="sub-title">About Me</h1>
+        <div class="about-list">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>But Who am I?</h2>
+            </div>
+            <div class="about-layer">
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>A Few <br>Details</h2>
+            </div>
+            <div class="about-layer">
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Future <br> Goals</h2>
+            </div>
+            <div class="about-layer">
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- -------portfolio-------- -->
-		<div id="portfolio">
-			<div class="container">
-				<h1 class="sub-title">My Work</h1>
-				<div class="work-list">
-					<div class="work">
-						<img src="Images/Sitting.jpg" />
-						<div class="layer">
-							<h3>Social Media App</h3>
-							<p>
-								Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-								sint cillum sint consectetur cupidatat.
-							</p>
-							<a href="#"
-								><i class="fa-solid fa-arrow-up-right-from-square"></i
-							></a>
-						</div>
-					</div>
-					<div class="work">
-						<img src="Images/Sitting.jpg" />
-						<div class="layer">
-							<h3>Social Media App</h3>
-							<p>
-								Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-								sint cillum sint consectetur cupidatat.
-							</p>
-							<a href="#"
-								><i class="fa-solid fa-arrow-up-right-from-square"></i
-							></a>
-						</div>
-					</div>
-					<div class="work">
-						<img src="Images/Sitting.jpg" />
-						<div class="layer">
-							<h3>Social Media App</h3>
-							<p>
-								Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-								sint cillum sint consectetur cupidatat.
-							</p>
-							<a href="#"
-								><i class="fa-solid fa-arrow-up-right-from-square"></i
-							></a>
-						</div>
-					</div>
-				</div>
-				<a href="#" class="btn">See more</a>
-			</div>
-		</div>
+    <!-- -------portfolio-------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/Sitting.jpg" />
+            <div class="portfolio-layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+              <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/Sitting.jpg" />
+            <div class="portfolio-layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+              <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/Sitting.jpg" />
+            <div class="portfolio-layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+              <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
 
-		<!-- -------contact-------- -->
-		<div id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="contact-left">
-						<h1 class="sub-title">Contact Me</h1>
-						<p><i class="fas fa-paper-plane"></i> Tyleej0312@gmail.com</p>
-						<p><i class="fas fa-square-phone"></i> 984-628-7780</p>
+    <!-- -------contact-------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> Tyleej0312@gmail.com</p>
+            <p><i class="fas fa-square-phone"></i> 984-628-7780</p>
 
-						<div class="social-icons">
-							<a href="https://linkedin.com"
-								><i class="fa-brands fa-linkedin"></i
-							></a>
-							<!-- <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a> -->
-							<!-- <a href="https://facebook.com"><i class="fa-brands fa-twitter-square"></i></a> -->
-							<!-- <a href="https://facebook.com"><i class="fa-brands fa-instagram"></i></a> -->
-						</div>
-						<a href="" download class="btn btn2">Download CV</a>
-					</div>
-					<div class="contact-right">
-						<form name="submit-to-google-sheet">
-							<input type="text" name="Name" placeholder="Your Name" required />
-							<input
-								type="email"
-								name="Email"
-								placeholder="Your Email"
-								required
-							/>
-							<textarea
-								name="Message"
-								rows="6"
-								placeholder="Your Message"
-							></textarea>
-							<button type="submit" class="btn btn2">Submit</button>
-						</form>
-						<span id="msg"></span>
-					</div>
-				</div>
-			</div>
-		</div>
+            <div class="social-icons">
+              <a href="https://linkedin.com"
+              ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              <!-- <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a> -->
+              <!-- <a href="https://facebook.com"><i class="fa-brands fa-twitter-square"></i></a> -->
+              <!-- <a href="https://facebook.com"><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<script src="index.js"></script>
-	</body>
+    <script src="index.js"></script>
+  </body>
 </html>

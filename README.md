@@ -9,9 +9,11 @@ This is my Personal site to advertize myself and my skill to employers about my 
 
 - Better wording on the Skills page
 
-- Turn My services to about me page, Who i am, aspiration 
+- Add text to about page
+ 
 - Turn My work to a hobbies page
-- Rm see more btn
+- Rm "see more" btn
+- Fix contact page timer
 
 - Add/rm social icons/links
 - Email form submits to google drive, figure out a way to also email me

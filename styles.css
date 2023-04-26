@@ -86,8 +86,8 @@ nav ul li a:hover::after {
 .header-text h1 span {
   color: #ff004f;
 }
-/* -------------about------------- */
-#about {
+/* -------------skills------------- */
+#skills {
   padding: 80px 0;
   color: #ababab;
 }
@@ -98,16 +98,16 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
 }
 
-.about-col-1 {
+.skills-col-1 {
   flex-basis: 35%;
 }
 
-.about-col-1 img {
+.skills-col-1 img {
   width: 100%;
   border-radius: 15px;
 }
 
-.about-col-2 {
+.skills-col-2 {
   flex-basis: 60%;
 }
 
@@ -164,49 +164,66 @@ nav ul li a:hover::after {
   display: block;
 }
 
-/* --------services--------- */
-#services {
+/* --------about-------- */
+#about {
   padding: 30px 0;
 }
 
-.services-list {
+.about-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
 
-.services-list div {
+.about-card {
   background: var(--itemBackground);
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
+
+  position: relative;
+  overflow: hidden;
+  height: 330px;
 }
 
-.services-list div i {
+.about-card div i {
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.services-list div h2 {
-  font-size: 30px;
+.about-card div h2 {
+  font-size: 50px;
   font-weight: 500;
-  margin-bottom: 15px; 
+  margin-top: 0px; 
 }
 
-.services-list div a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  margin-top: 20px;
-  display: inline-block;
+.about-card div p {
+  font-size: 20px;
 }
-.services-list div:hover{
+.about-layer {
+  width: 100%;
+  height: 0;
   background: var(--accent);
-  transform: translateY(-10px);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  font-size: 14px;
+  transition: height 0.6s;
 }
+
+.about-card:hover .about-layer {
+  height: 100%;
+} 
 
 /* --------portfolio--------- */
 #portfolio {
@@ -233,7 +250,7 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 
-.layer {
+.portfolio-layer {
   width: 100%;
   height: 0;
   background: linear-gradient(rgba(0,0,0,0.6), var(--accent));
@@ -252,11 +269,11 @@ nav ul li a:hover::after {
   transition: height 0.6s;
 }
 
-.layer h3 {
+.portfolio-layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
 }
-.layer a {
+.portfolio-layer a {
   margin-top: 20px;
   color: var(--accent);
   text-decoration: none;
@@ -272,7 +289,7 @@ nav ul li a:hover::after {
 .work:hover img {
   transform: scale(1.1);
 }
-.work:hover .layer {
+.work:hover .portfolio-layer {
   height: 100%;
 } 
 
@@ -407,18 +424,18 @@ nav .fas {
     cursor: pointer;
   }
 
-  /* -------- About ----------*/
+  /* -------- skills----------*/
   .sub-title {
     font-size: 40px;
   }
-  .about-col-1, .about-col-2 {
+  .skills-col-1, .skills-col-2 {
     flex-basis: 100%;
   }
-  .about-col-1 {
+  .skills-col-1 {
     margin-bottom: 30px;
     order: 2;
   }
-  .about-col-2 {
+  .skills-col-2 {
     font-size: 14px;
   }
   .tab-links {
