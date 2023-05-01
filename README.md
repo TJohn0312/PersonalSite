@@ -9,13 +9,9 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
     - Mobile home page background Img.
 
-## Skills
-
-    - Better wording on the Skills page
-
 ## About
 
-    - Add text to about page
+    - Finnish Adding text to about page
 
 ## Work 
 

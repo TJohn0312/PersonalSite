@@ -221,6 +221,17 @@ nav ul li a:hover::after {
   transition: height 0.6s;
 }
 
+/* Second element */
+.about-layer li {
+  font-size: 18px;
+}
+
+/* Third Element */
+.about-layer span {
+  font-size: 15.4px;
+}
+
+
 .about-card:hover .about-layer {
   height: 100%;
 } 
