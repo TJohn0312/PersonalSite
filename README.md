@@ -13,10 +13,9 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
     - Finnish Adding text to about page
 
-## Work 
+## Hobbies 
 
-    - Turn My work to a hobbies page
-    - Rm "see more" btn
+    - Add and size Images to hobbies page
 
 ## Contact
 

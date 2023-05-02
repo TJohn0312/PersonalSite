@@ -22,6 +22,27 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid var(--accent);
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: var(--accent);
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: var(--accent);
+}
+
 .header {
   width: 100%;
   height: 100vh;
@@ -33,6 +54,8 @@ html {
 .container {
   padding: 10px 10%;
 }
+
+/* -------- Home Page -------- */
 
 nav {
   display: flex;
@@ -236,32 +259,32 @@ nav ul li a:hover::after {
   height: 100%;
 } 
 
-/* --------portfolio--------- */
-#portfolio {
+/* -------- Hobbies -------- */
+#hobbies  {
   padding: 50px 0;
 }
 
-.work-list {
+.hobbies-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
 
-.work {
+.hobbies {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
 
-.work img {
+.hobbies img {
   border-radius: 10px;
   width: 100%;
   display: block;
   transition: transform 0.5s;
 }
 
-.portfolio-layer {
+.hobbies-layer {
   width: 100%;
   height: 0;
   background: linear-gradient(rgba(0,0,0,0.6), var(--accent));
@@ -280,50 +303,17 @@ nav ul li a:hover::after {
   transition: height 0.6s;
 }
 
-.portfolio-layer h3 {
+.hobbies-layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
 }
-.portfolio-layer a {
-  margin-top: 20px;
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
-  background: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  text-align: center;
-}
 
-.work:hover img {
+.hobbies:hover img {
   transform: scale(1.1);
 }
-.work:hover .portfolio-layer {
+.hobbies:hover .hobbies-layer {
   height: 100%;
 } 
-
-.btn {
-  display: block;
-  margin: 50px auto;
-  width: fit-content;
-  border: 1px solid var(--accent);
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #fff;
-  transition: background 0.5s;
-}
-
-.btn:hover {
-  background: var(--accent);
-}
-
-.btn.btn2 {
-  display: inline-block;
-  background: var(--accent);
-}
 
 /* -------Contact-------- */
 .contact-left {
