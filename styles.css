@@ -280,8 +280,15 @@ nav ul li a:hover::after {
 .hobbies img {
   border-radius: 10px;
   width: 100%;
+  height: 350px;
+  object-fit: cover;
+  /* object-position: right; */
   display: block;
   transition: transform 0.5s;
+}
+
+.hobbies img:nth-child(2) {
+  /* height: 50%; */
 }
 
 .hobbies-layer {

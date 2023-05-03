@@ -13,10 +13,6 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
     - Finnish Adding text to about page
 
-## Hobbies 
-
-    - Add and size Images to hobbies page
-
 ## Contact
 
     - Add GitHub link
