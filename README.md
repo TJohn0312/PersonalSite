@@ -15,7 +15,6 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
 ## Contact
 
-    - Add GitHub link
     - Make CV and put it in download btn
 
     - Fix contact page timer
