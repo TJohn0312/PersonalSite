@@ -7,11 +7,11 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
 ## Home
 
-    - Mobile home page background Img.
+    - Better Mobile home page background Img.
 
 ## About
 
-    - Finnish Adding text to about page
+    - Finnish refining text to about page
 
 ## Contact
 
@@ -25,5 +25,4 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
     - Adjust screen height of each page
 
-    - Make hover effects click effect for mobile (or when in middle of screen)
     - close menu on mobile after click(maybe) 

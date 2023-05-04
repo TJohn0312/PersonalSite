@@ -448,6 +448,13 @@ nav .fas {
   }
 
   /* -------- About Me --------- */
+.about-card div h2 {
+    font-size: 45px;
+  }
+
+.about-card div span {
+    font-size: 13px;
+  }
 
   /* -------- Hobbies --------- */
 
