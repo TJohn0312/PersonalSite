@@ -26,6 +26,20 @@ function closeMenu() {
   sideMenu.style.right = "-200px";
 }
 
+// // Mobile card transitions
+// window.onload = main;
+// function main() {
+//     window.addEventListener("scroll", function(){
+//         if(isElementIntoView("about-card")) openTab();
+//     });
+// }
+//
+// function isElementIntoView(el) { 
+//     var e = document.querySelector(el);
+//     var rect = e.getBoundingClientRect();
+//     return  window.innerHeight-rect.top >= 0; 
+// }
+
 // --------Google sheets integration--------
 // https://github.com/jamiewilson/form-to-google-sheets
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwI1n-Ssrx2gyrGtmA4pZNqgRMZMG_b1yZfJDVOYnHDg0BLqMnJ0MF4FKnRV_bUdwTK/exec'
