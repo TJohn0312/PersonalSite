@@ -9,13 +9,7 @@ This is my Personal site to advertise myself and my skill to employers about my 
 
     - Better Mobile home page background Img.
 
-## About
-
-    - Finnish refining text to about page
-
 ## Contact
-
-    - Make CV and put it in download btn
 
     - Fix contact page timer
 
@@ -26,3 +20,6 @@ This is my Personal site to advertise myself and my skill to employers about my 
     - Adjust screen height of each page
 
     - close menu on mobile after click(maybe) 
+
+# CV
+    - Add website URL
